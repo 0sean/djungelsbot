@@ -203,13 +203,6 @@ commandClient.add({
     }
 });
 
-commandClient.add({
-    name: "auto",
-    run: (ctx) => {
-        autoCheck(ctx.client);
-    }
-});
-
 (async () => {
     const client = await commandClient.run();
     try {
